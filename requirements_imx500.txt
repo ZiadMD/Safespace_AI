@@ -1,0 +1,12 @@
+# Requirements for IMX500 model conversion
+
+# Core dependencies
+torch>=1.9.0
+onnx>=1.12.0
+onnxruntime>=1.14.0
+
+# Optional: For model optimization
+onnxruntime-tools>=1.7.0
+
+# Optional: For model analysis
+pandas>=1.3.0

@@ -36,7 +36,12 @@ env/
 *.pyo
 *.pyd
 *.so    
+*.zip
+*.rar
+
 
 *-dataset/
 *-data/
+
+*imx*/
 
