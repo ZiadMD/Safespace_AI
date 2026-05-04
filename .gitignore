@@ -1,4 +1,4 @@
-# Models formate
+# Model formats
 *.pt
 *.pth
 *.ckpt
@@ -12,36 +12,56 @@
 *.pickle
 *.pkl
 
+# Training artifacts
+runs/
+wandb/
+experiments/runs/
+experiments/wandb/
+
+# IDE / Editor
 .vscode/
 .idea/
 .DS_Store
+*.vc.db
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+*.env
+.env/
+.venv/
+venv/
+env/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Logs / Temp
 *.log
 *.tmp
 *.bak
 *.swp
-*.zip
-*.tar.gz
-*.egg-info/
-dist/
-build/
-*.egg
-*.whl
-*.ipynb_checkpoints/
-*.env
-.env/
-venv/
-env/
-*.pyc
-*.pyo
-*.pyd
-*.so    
-*.zip
-*.rar
 
-
+# Dataset patterns
+datasets/*
+!datasets/README.md
 *-dataset/
 *-data/
 
+# Hardware-specific
 *imx*/
-

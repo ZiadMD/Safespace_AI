@@ -1,0 +1,17 @@
+# Core AI dependencies
+torch>=1.9.0
+torchvision
+torchaudio
+ultralytics
+
+# Tracking and Dataset Management
+wandb
+roboflow
+
+# Environment and Utilities
+python-dotenv
+opencv-python
+matplotlib
+numpy
+pandas
+jupyter
